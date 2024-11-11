@@ -1,2 +1,9 @@
-# CGPA-in-java
- Q. write a program to calculate CGPA using marks of three subject (out of 100).
+public class Main {
+    public static void main(String[] args) {
+        float subject1 = 50;
+        float subject2 = 60;
+        float subject3 = 80;
+        float cgpa = (subject1 +subject2 +subject3)/30;
+        System.out.println(cgpa);
+    }
+}
